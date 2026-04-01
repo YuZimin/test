@@ -2,7 +2,7 @@
 @Component
 struct Index {
   @State message: string = 'Hello World';
-  @State all: string;
+  @State all: string = 111;
 
   build() {
     RelativeContainer() {
